@@ -107,7 +107,7 @@ mreiApp.get('/user-lao', function(req, res){
 
 
  
-mreiApp.use(myExpress.static('/build'))
+mreiApp.use(myExpress.static('./build'))
 mreiApp.listen(3040, function(){
     console.log("znui")
 })
